@@ -1,0 +1,142 @@
+/* Main login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 186, 255, 0.1), rgba(0, 100, 255, 0.2));
+}
+
+/* Form Styling */
+form {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f7f7f7;
+}
+
+input:focus {
+    border-color: #3498db;
+    background-color: #eaf6ff;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+/* Home Button Styling */
+.home-button {
+    background-color: #e74c3c;
+    margin-top: 15px;
+}
+
+.home-button:hover {
+    background-color: #c0392b;
+}
+
+/* Alert Styling */
+.alert {
+    margin-top: 15px;
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    form {
+        padding: 25px 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .home-button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .alert {
+        font-size: 12px;
+    }
+}
+
+/* For medium devices (tablets) */
+@media (max-width: 768px) {
+    form {
+        padding: 30px 25px;
+        width: 90%;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input, button {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .home-button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}

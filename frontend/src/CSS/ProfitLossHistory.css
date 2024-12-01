@@ -1,0 +1,40 @@
+.history-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-entry {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .history-entry strong {
+    color: #333;
+  }
+  
+  .profit {
+    color: #4CAF50; /* Green for profit */
+  }
+  
+  .loss {
+    color: #f44336; /* Red for loss */
+  }
+  
+  .history-item:last-child {
+    margin-bottom: 0;
+  }
+  

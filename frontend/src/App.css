@@ -1,0 +1,88 @@
+/* Reset */
+body, h1, p, button, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+  padding: 20px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: #4e73df;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #4e73df;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e59d9;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* HomePage */
+.homepage-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.homepage-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.homepage-container p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.homepage-container .btn {
+  background-color: #fff;
+  color: #4e73df;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.homepage-container .btn:hover {
+  background-color: #2e59d9;
+  color: white;
+}

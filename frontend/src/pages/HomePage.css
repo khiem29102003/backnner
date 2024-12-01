@@ -1,0 +1,39 @@
+.homepage-container {
+    background: rgba(42, 125, 252, 0.8); /* Màu nền với độ trong suốt */
+    background: linear-gradient(to right, rgba(42, 125, 252, 0.8), rgba(108, 131, 228, 0.8));
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.links .btn {
+    background-color: rgba(255, 255, 255, 0.8); /* Nền nút trong suốt */
+    color: #2a7dfc;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    margin: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid #2a7dfc; /* Viền nút */
+}
+
+.links .btn:hover {
+    background-color: #6c83e4;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng khi hover */
+}
